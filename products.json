@@ -1,0 +1,33 @@
+{ 
+"products" : [
+    {
+        "title" : "DEEP EARTH",
+        "img" : "image-deep-earth.jpg"
+    },
+    {
+        "title" : "THE CURIOSITY",
+        "img" : "image-curiosity.jpg"
+    },
+    {
+        "title" : "THE FISHEYE",
+        "img" : "image-fisheye.jpg"
+    },
+    {
+        "title" : "FROM ABOVE",
+        "img" : "image-from-above.jpg"
+    },
+    {
+        "title" : "BONES",
+        "img" : "image-grid.jpg"
+    },
+    {
+        "title" : "NIGHT ARCADE",
+        "img" : "image-night-arcade.jpg"
+    },
+    {
+        "title" : "POCKET BOREALIS",
+        "img" : "image-pocket-borealis.jpg"
+    }
+]
+
+}

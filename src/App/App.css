@@ -1,0 +1,213 @@
+*{
+margin: auto;
+padding: 0 auto;
+box-sizing: 10px;
+font-family: 'Poppins', sans-serif;
+}
+
+.header{
+align-items: center;
+color: white;
+display: flex;
+height: 80px;
+}
+.imgheader{
+z-index: -1;
+position: absolute;
+width: 100%;
+height: 100vh;
+}
+
+.listitems{
+display: flex;
+list-style: none;
+align-items: center;
+color: #dfe6e9;
+}
+.listitem{
+padding-right:35px;
+}
+
+.textheader{
+position: absolute;
+width: 500px;
+color: white;
+left: 250px;
+margin-top: 33vh;
+padding : 20px 20px 20px 35px ;
+border: solid white 2px;
+}
+
+.main{
+margin-top: 99vh;
+display: flex;
+position: relative;
+}
+.imgmain{
+height:52vh ;
+width:78vh ;
+left: 100px;
+z-index: -1;
+position: absolute;
+box-shadow: 5px 0px 5px 0px #888888;
+
+}
+.textbox{
+align-items: center;
+padding:30px 30px 0px 30px ;
+display: grid;
+margin: auto;
+border: solid 1px white;
+width:1000px;
+margin-top: 30vh;
+height: 300px;
+background-color:white;
+margin-left:400px;
+box-shadow: 5px 0px 5px 0px #888888;
+margin-right: 100px;
+}
+
+.creations{
+margin-left: 100px;
+margin-top: 10vh;
+margin-bottom:10vh;
+}
+
+.section{
+align-items: center;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.imgcre:hover{
+opacity: 0.5;
+cursor: pointer;
+}
+
+.first{
+margin: 0px 0px 0px 0px;
+}
+
+
+.deep{
+position: relative;
+text-align: center;
+top:380px;
+}
+
+.curio{
+	position: relative;
+	top:380px;
+	text-align: center;
+}
+.above{
+	position: relative;
+	text-align: center;
+	top:380px;
+}
+.fisheye{
+	position: relative;
+	text-align: center;
+	top:380px;
+}
+
+.first{
+position: relative;
+color: yellow;
+}
+
+.nav-links{
+	color:white;
+	text-decoration: inherit;
+}
+
+
+/* about us css  */
+.contact-us {
+	background: #f8f4e5;
+	padding: 50px 100px;
+	border-top: 10px solid #f45702;
+  }
+  
+  label, input, textarea {
+	display: block;
+	width: 100%;
+	font-size: 12pt;
+	line-height: 24pt;
+	font-family: "Spartan";
+  }
+  
+  input {
+	margin-bottom: 24pt;
+  }
+  
+  h3 {
+	font-weight: normal;
+	font-size: 10pt;
+	line-height: 24pt;
+	font-style: italic;
+	margin: 0 0 0.5em 0;
+  }
+  
+  span {
+	font-size: 8pt;
+  }
+  
+  em {
+	color: #f45702;
+	font-weight: bold;
+  }
+  
+  input, textarea {
+	border: none;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	background: #f8f4e5;
+	padding-left: 5px;
+	outline: none;
+  }
+  
+  input:focus, textarea:focus {
+	border: 1px solid #6bd4b1;
+  }
+  
+  textarea {
+	resize: none;
+  }
+  
+  button {
+	display: block;
+	float: right;
+	line-height: 24pt;
+	padding: 0 20px;
+	border: none;
+	background: #f45702;
+	color: white;
+	letter-spacing: 2px;
+	transition: 0.2s all ease-in-out;
+	border-bottom: 2px solid transparent;
+	outline: none;
+  }
+  button:hover {
+	background: inherit;
+	color: #f45702;
+	border-bottom: 2px solid #f45702;
+  }
+  
+  ::selection {
+	background: #ffc7b8;
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus {
+	border: 1px solid #6bd4b1;
+	-webkit-text-fill-color: #2A293E;
+	-webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+	transition: background-color 5000s ease-in-out 0s;
+  }
