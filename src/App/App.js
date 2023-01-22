@@ -8,6 +8,7 @@ import Events from '../Components/Events';
 import Products from '../Components/Products';
 import Support from '../Components/Support';
 import Main from '../Components/Main'
+import ProductDetails from '../Components/static_components/ProductDetails'
 
 
 const App = () =>{
@@ -21,6 +22,8 @@ return(
         <Route element={<Events/>} path='/events' />
         <Route element={<Products/>} path='/products' />
         <Route element={<Support/>} path='/support' />
+
+        <Route element={<ProductDetails/>} path='/products/:id' />
     </Routes>
     </BrowserRouter>
 )

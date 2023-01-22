@@ -1,10 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-const Header = (props) => {
+const Header = ({background}) => {
     return (
     <>
-        <img className="imgheader" src={process.env.PUBLIC_URL +"../image-hero.jpg"} alt='hey'></img>
+        <img  className="imgheader"  src={process.env.PUBLIC_URL +"../image-hero.jpg"} alt='hey'></img>
+
         <div className="header">
         <h3 >loopstudios</h3>
             <ul className="listitems">

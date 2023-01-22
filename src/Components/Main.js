@@ -1,4 +1,5 @@
 import React, { useState, useEffect }  from 'react'
+import { Link } from 'react-router-dom';
 import Card from './static_components/Card';
 import Header from './static_components/Header';
 
@@ -52,8 +53,8 @@ return(
                 { 
                 products.map((product, index)=>{
                 return(
-                    <Card index={index} img={product.img} title={product.title} />
-                )
+                    <Link to={`/products/${product.title}`} state={{product}} > <Card index={index} img={product.img} title={product.title} /></Link>
+                    )
                 }) 
                 }
             </div> 
